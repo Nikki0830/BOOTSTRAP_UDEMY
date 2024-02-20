@@ -1,3 +1,25 @@
 /* body{
     background-color: aquamarine;
 } */
+
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+.color-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* height:70vh; */
+  min-height: 60vh;
+}
+.singleCol {
+  max-width: 750px;
+  border:1px solid red;
+  background-color: yellowgreen;
+}
+
+@media (max-height: 767.98px) {
+  .color-overlay {
+    min-height: 30vh;
+  }
+}
